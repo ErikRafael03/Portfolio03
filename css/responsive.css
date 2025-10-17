@@ -1,0 +1,138 @@
+@media screen and (max-width: 1570px) {
+
+    section {
+        padding: 20px 10% 10% 10%;
+    }
+
+    .tituloInicio {
+        width: 80%;
+    }
+
+    .textInicio {
+        font-size: 30px;
+        font-weight: 200;
+        margin-right: 30%;
+    }
+
+    .sobremim {
+        flex-direction: column;
+    }
+
+    .habilidades {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    section {
+        padding: 20px 20px 10% 20px;
+    }
+
+    .head div {
+        text-align: center;
+        padding: 40% 0px 40% 0px;
+        gap: 50px;
+    }
+
+    .tituloInicio {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .textInicio {
+        font-size: 25px;
+        margin-right: 0%;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .icons div {
+        flex: 1 1 60px;
+        max-width: 320px;
+    }
+
+
+    .icons div i {
+        font-size: 80px;
+    }
+
+    .icons div p {
+        font-size: 18px;
+    }
+
+    .cardprojetos {
+        padding: 0%;
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards div {
+        width: 93%;
+    }
+
+    footer {
+        padding: 5%;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    section nav i {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .head div {
+        padding: 35% 0px 0% 0px;
+    }
+
+    .tituloInicio {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .textInicio {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .head div {
+        padding: 20% 0px 0% 0px;
+    }
+
+    .tituloInicio {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .textInicio {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .title .titulo {
+        font-size: 40px;
+    }
+
+    .icons{
+        padding-top: 5%;
+    }
+    .icons div i {
+        font-size: 75px;
+    }
+}
